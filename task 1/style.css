@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img.jpg);
+    background-size: cover;
+   
+}
+nav {
+    display: flex;
+   
+    padding:10px 50px ;
+   
+    
+}
+nav ul  {
+    display: flex;
+    padding-left: 40px;
+   
+   
+   
+   
+}
+nav ul li{
+    color: white;
+    font-size: 20px;
+   list-style: none;
+   font-weight: bold;
+
+  
+}
+nav ul li:hover{
+    color:blue;
+}
+.search{
+    padding-top: 10px;
+    display: flex;
+   /* justify-content: center; */
+   /* align-items: center; */
+    /* background-color:blue;
+   border: 5px solid blue;
+    */
+    /* padding-left: 40%; */
+   padding-left: 100px;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 4px 4px 4px white;
+}
+li{
+ padding-left: 100px;
+ padding-top: 10px;
+}
+.left-box{
+    width: 20%;
+    color: white;
+    position: relative;
+    left: 10%;
+    
+}
+.heading2{
+    color: blue;
+    margin: 10px;
+    text-shadow: 2px 2px 2px white;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+   
+    align-items: center;
+
+}
+.left-button{
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+/* all the  left box is complete */
+.right-box{
+    width: 18%;
+    border: 2px solid ;
+    height: 400px;
+    color: white;
+   text-align: center;
+   border-radius: 10px;
+   background-color: black;
+   position: relative;
+   left: 50%;
+   border: 2px solid white;
+   box-shadow: 4px 4px 4px gray;
+ 
+}
+.right-box button{
+    padding: 8px 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: blue;
+    margin: 25px;
+    color: white;
+
+}
+.right-box button:hover{
+    background-color: gray;
+}
+.name{
+    margin: 20px;
+}
+.l{
+    padding: 10px;
+}
+.k{
+    color: blue;
+    font-weight: bold;
+}
+.heading1{
+    margin: 10px;
+    text-shadow: 2px 2px 2px blue;
+}
